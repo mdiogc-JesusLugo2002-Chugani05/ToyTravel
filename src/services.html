@@ -10,8 +10,6 @@
 <body>
     <!-- header -->
     <header class="container-fluid">
-
-        <!-- barra de navegación principal -->
         <nav class="navbar navbar-expand">
             <div class="container">
                 <a class="navbar-brand" href="index.html">
@@ -61,34 +59,91 @@
     <main class="container mt-5 pt-5">
         <section class="services text-center my-5">
             <h2 class="mb-4">Our Services</h2>
-            <div class="row gallery">
-                <div class="col-md-4 mb-4 service-item">
-                    <div class="card">
-                        <img src="assets/images/xina.jpg" class="card-img-top" alt="Tour para peluches">
-                        <div class="card-body">
-                            <h5 class="card-title">Tour for toys</h5>
-                            <p class="card-text">An exclusive tour of Japan for stuffed animals. Includes souvenir photos!Visit the five-story Pagoda of Rurikoji Temple (National Treasure of Japan)</p>
-                            <button class="btn btn-primary">Know more</button>
+            <div id="serviceCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <!-- Tour for toys -->
+                    <div class="carousel-item active">
+                        <img src="assets/images/services/japon.webp" class="d-block w-100" alt="Exclusive Tour" style="object-fit: cover; height: 500px;">
+                        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 p-3 rounded">
+                            <h5>Exclusive Tours</h5>
+                            <p>An exclusive tour of Japan for stuffed animals. Includes souvenir photos! Visit the five-story Pagoda of Rurikoji Temple (National Treasure of Japan).</p>
+                        </div>
+                    </div>
+                    <!-- Mountain Adventure for Toys -->
+                    <div class="carousel-item">
+                        <img src="assets/images/services/mountain.jpg" class="d-block w-100" alt="Mountain Adventure" style="object-fit: cover; height: 500px;">
+                        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 p-3 rounded">
+                            <h5>Mountain Adventure</h5>
+                            <p>Your toys can enjoy breathtaking views and mountain hiking in the most famous mountain ranges.</p>
+                        </div>
+                    </div>
+                    <!-- City Tours for Toys -->
+                    <div class="carousel-item">
+                        <img src="assets/images/services/citytour.webp" class="d-block w-100" alt="City Tours" style="object-fit: cover; height: 500px;">
+                        <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-75 p-3 rounded">
+                            <h5>City Tours</h5>
+                            <p>Explore the charm and history of iconic cities around the world, with tailored experiences for your toys.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mb-4 service-item">
-                    <div class="card">
-                        <img src="assets/images/nievecita.jpg" class="card-img-top" alt="Tour para peluches">
+                <button class="carousel-control-prev" type="button" data-bs-target="#serviceCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#serviceCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+
+        <!-- Card with service details -->
+        <section class="my-5">
+            <div class="card mb-3">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="assets/images/services/museum.jpg" class="img-fluid rounded-start" alt="Mountain Adventure" style="object-fit: cover; height: 100%; width: 100%;">
+                    </div>
+                    <div class="col-md-8">
                         <div class="card-body">
-                            <h5 class="card-title">Tour for toys</h5>
-                            <p class="card-text">An exclusive tour of Japan for stuffed animals. Includes souvenir photos!Visit the five-story Pagoda of Rurikoji Temple (National Treasure of Japan)</p>
-                            <button class="btn btn-primary">Know more</button>
+                            <h5 class="card-title">Artistic Plush Toy Tour</h5>
+                            <p class="card-text">A tour through famous cities of art where plush toys can admire famous monuments and paintings. They can also take part in creative activities like painting murals or visiting mini art galleries.</p>
+                            <p class="card-text"><strong>Price:</strong> $50</p>
+                            <p class="card-text"><small class="text-muted">A guided tour with snacks included.  Museum visits, art workshops, creating masterpieces with plush toys. Duration: 2 days</small></p>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 mb-4 service-item">
-                    <div class="card">
-                        <img src="assets/images/france.jpg" class="card-img-top" alt="Tour para peluches">
+            </div>
+
+            <!-- Another service card -->
+            <div class="card mb-3">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="assets/images/services/circus.webp" class="img-fluid rounded-start" alt="City Tour" style="object-fit: cover; height: 100%; width: 100%;">
+                    </div>
+                    <div class="col-md-8">
                         <div class="card-body">
-                            <h5 class="card-title">Tour for toys</h5>
-                            <p class="card-text">An exclusive tour of Japan for stuffed animals. Includes souvenir photos!Visit the five-story Pagoda of Rurikoji Temple (National Treasure of Japan)</p>
-                            <button class="btn btn-primary">Know more</button>
+                            <h5 class="card-title">Plush Circus Tour</h5>
+                            <p class="card-text">A magical journey through a traveling circus where plush toys participate in acrobatics, juggling, and clown performances. It's an experience full of magic and laughter.</p>
+                            <p class="card-text"><strong>Price:</strong> $70</p>
+                            <p class="card-text"><small class="text-muted">Circus performances, juggling lessons, costume photos with plush clowns. Duration: 1 day</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card mb-3">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="assets/images/services/under.jpg" class="img-fluid rounded-start" alt="City Tour" style="object-fit: cover; height: 100%; width: 100%;">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Underwater Exploration</h5>
+                            <p class="card-text">A tour through the underwater world where plush toys explore coral reefs, swim with turtle and dolphin plush toys, and discover colorful fish.</p>
+                            <p class="card-text"><strong>Price:</strong> $100</p>
+                            <p class="card-text"><small class="text-muted">Reef exploration, underwater photos with marine creatures, learning about aquatic life. Duration: 1 day</small></p>
                         </div>
                     </div>
                 </div>
@@ -96,35 +151,10 @@
         </section>
     </main>
 
-    <div id="tourModal" class="modal fade" tabindex="-1" role="dialog">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title">Tour for toys</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <p>Price: 50€</p>
-                    <p>An exclusive tour of Japan for stuffed animals.</p>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <footer class="text-center py-4">
         <p>&copy; 2024 Toy Travel | <a href="#">Terms of Service</a> | <a href="#">Privacy Policy</a></p>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
-
-	
