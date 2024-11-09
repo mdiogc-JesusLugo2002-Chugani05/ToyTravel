@@ -1,13 +1,11 @@
 # Toy Travel
 
-## Color palette
--  Main color:
--  Secondary color:
--  Background color:
--  Text color:
+## Content
+- [Description](#description)
+- [Link](#link)
 
-- #0477BF
-- #04BF45
-- #B9BF04
-- #F2B705
-- #D90404
+## Description
+The first travel agency dedicated to your toys! We explore fantastic destinations and provide unforgettable experiences for adventurers of stuffed animals, action figures, and more. With ToyTravel, your toys will discover incredible worlds, from sunny beaches to snowy mountains.
+
+## Link
+Here you have the link to our agency: [Toy Travel](https://github.com/Chugani05/ToyTravel.git)
