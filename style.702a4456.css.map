@@ -1,0 +1,1 @@
+{"version":3,"sources":["style.css"],"names":[],"mappings":"AAAA,eACI,cAAe,CACf,WAAY,CACZ,UACJ","file":"style.702a4456.css","sourceRoot":"../src","sourcesContent":["#return-button {\n    position: fixed;\n    bottom: 20px;\n    right: 20px;\n}"]}
