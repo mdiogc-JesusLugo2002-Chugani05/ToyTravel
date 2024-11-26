@@ -1,4 +1,5 @@
 # Toy Travel
+<img src="src/assets/images/icon.png" alt="logo" width="30%">
 
 ## Content
 - [Description](#description)
